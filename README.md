@@ -27,8 +27,6 @@ Os temas das páginas ficam livres para cada integrante escolher de acordo com s
  - Realidade Virtual e Aumentada
 
 
-Lembrando que a lita é aberta e vocês podem escolher o que quiserem ok?
-
 
 ## Links úteis
 
