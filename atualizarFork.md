@@ -1,6 +1,6 @@
 # Como atualizar seu fork
 
-Se você tem um fork deste projeto, siga estes passos para mantê-lo sempre atualizado com o repositório original.
+Guia atualização do fork
 
 ## 1️⃣ Abrir o projeto no GitHub Desktop
 
