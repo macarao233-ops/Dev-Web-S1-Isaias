@@ -1,14 +1,14 @@
-# Como manter seu fork atualizado
+# Como atualizar seu fork
 
-Se você fez um fork deste projeto, aqui está como manter ele sempre atualizado com as últimas mudanças do repositório original.
+Se você tem um fork deste projeto, siga estes passos para mantê-lo sempre atualizado com o repositório original.
 
-1️⃣ Abrir o projeto no GitHub Desktop
+## 1️⃣ Abrir o projeto no GitHub Desktop
 
 Abra o GitHub Desktop no seu computador.
 
 Certifique-se de que o fork está aberto no Desktop.
 
-2️⃣ Adicionar o repositório original (upstream)
+## 2️⃣ Adicionar o repositório original (upstream)
 
 No menu, clique em Repository → Repository Settings → Remotes.
 
@@ -22,28 +22,22 @@ URL: https://github.com/heitorbolisw4/Dev-Web-S1-.git
 
 Clique em Save.
 
-3️⃣ Buscar as atualizações
+## 3️⃣ Buscar e aplicar as atualizações
 
-No Desktop, clique em Fetch origin ou Fetch upstream.
+Clique em Fetch upstream (ou Fetch origin).
 
-Isso pega todas as mudanças feitas no repositório original.
+Depois, certifique-se de estar na branch main.
 
-4️⃣ Mesclar as mudanças na sua branch principal
-
-Certifique-se de que você está na branch main (a principal).
-
-Clique em Branch → Merge into current branch.
-
-Selecione upstream/main.
+Clique em Branch → Merge into current branch e selecione upstream/main.
 
 Clique em Merge.
 
-Se aparecer algum conflito, o Desktop vai mostrar. Siga as instruções para resolver.
+Agora o fork está atualizado com as últimas mudanças do repositório original.
 
-5️⃣ Enviar as mudanças para o seu fork
+## 💡 Importante:
 
-Clique em Push origin no GitHub Desktop.
+Faça isso antes de começar a trabalhar no seu fork.
 
-Agora seu fork está atualizado com tudo que foi feito no repositório original.
+Sempre que for lançado alguma atualização irei avisar previamente;
 
-💡 Dica: Sempre faça esses passos antes de começar a trabalhar em novas alterações, assim você evita problemas e mantém tudo sincronizado.
+tmj =D
