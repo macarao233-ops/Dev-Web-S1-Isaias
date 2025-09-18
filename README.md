@@ -44,6 +44,7 @@ Para manter a identidade visual unificada, definimos a seguinte paleta de cores.
 Para facilitar o uso da paleta, irei adicionar um arquivo .css dentro da pasta styles do projeto contendo as variáveis de cada cor. Assim, todos poderão utilizá-las livremente nas páginas, evitando inconsistências visuais.
 
 
+
 ### Links úteis
 
 1. [Curso em Video](https://www.cursoemvideo.com/) <- pra aprender HTML e CSS
