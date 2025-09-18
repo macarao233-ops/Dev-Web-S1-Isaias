@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* Aqui estou inportando as fontes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Aqui estou definindo as variaveis que são padrões "Padrões" para mantermos uuma uniformidade dentre as quatro paginas */
+:root{
+
+    /* Paleta de cores */
+
+    --color-1: #2E38F2;         /* Azul Vibrante */
+    --color-2: #3037BF;         /* Azul Médio */
+    --color-3: #32408C;         /* Azul Profundo */
+    --color-4: #B4B9D9;         /* Cinza Azulado */
+    --color-5: #333640;         /* Cinza Escuro */
+    --color-6: #dadada;         /* Platnum "Color adc "*/
+
+    /* Tipografia */
+    --font-sans-1: 'Saira', sans-serif;       /* h1, h2, h3 ...*/
+    --font-sans-2: 'Roboto', sans-serif;      /* paragrafos...*/
+    
+
+
+    /* Espacaçamentos */
+
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --gap: 1rem;
+    --card-shadow: 0 6px 18px rgba(17, 24, 39, 0.06);
+
+
+
+}
