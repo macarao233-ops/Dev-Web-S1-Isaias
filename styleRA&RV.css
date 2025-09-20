@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    align-items: center;
+    font-family: 10px;
+}
+
+img{
+    height: 300px;
+}
+
+p{
+    font-size: 20px;
+    color: black;
+}
+
+.rv{
+    display: flex;
+    font-family: 10px;
+    align-items: center;    
+}
+
+.ra{
+    display: flex;
+    font-family: 10px;
+    align-items: center;
+}
