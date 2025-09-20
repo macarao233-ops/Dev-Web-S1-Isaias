@@ -1,3 +1,4 @@
+
 # S1 - Web Dev Project
 
 O objetivo é, além de apresentar o projeto que iremos desenvolver em si, explicar como o construímos de forma clara e concisa. Queremos mostrar não só o resultado final, mas também todo o caminho percorrido, desde a escolha do tema até a organização das tarefas e a colaboração entre o grupo. Dessa forma, fica registrado como colocamos em prática o que aprendemos em sala e como trabalhamos juntos para transformar as ideias em um site funcional.
@@ -25,8 +26,6 @@ Os temas das páginas ficam livres para cada integrante escolher de acordo com s
 
  - Realidade Virtual e Aumentada
 
-
-Lembrando que a lita é aberta e vocês podem escolher o que quiserem ok?
 
 
 ## Links úteis
