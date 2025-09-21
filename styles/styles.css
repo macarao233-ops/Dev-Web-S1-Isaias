@@ -27,7 +27,143 @@
     --radius-md: 12px;
     --gap: 1rem;
     --card-shadow: 0 6px 18px rgba(17, 24, 39, 0.06);
+    --width-container: 1400px;
+    --padding-top: 100px;
+    --padding-bottom: 100px;
 
 
 
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.btn1{
+    padding: 20px;
+    font-size: 20px;
+    color: #dadada;
+    background-color: var(--color-2);
+    border: 1px solid #333640;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 3px 6px 14px rgba(0, 0, 0, 0.284);
+}
+.btn1:hover{
+    background-color: var(--color-6);
+    color: var(--color-3);
+    border-color: #2E38F2;
+    box-shadow: 1px 2px 3px black;
+}
+
+
+/* Header */
+
+main{
+    background-color: var(--color-6);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 1400px;
+    margin: auto;
+    gap: 100px;
+    
+}
+.logo-header{
+    display: flex;
+    width: 100px;
+    justify-content: center;
+}
+
+.logo-header img{
+    width: 80px;
+    height: auto;
+}
+
+nav{
+    width: 1200px;
+    display: flex;
+    justify-content: flex-end;
+
+    font-family: "Saira", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 45px;
+    
+}
+nav ul a{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    color: var(--color-3);
+}
+
+nav ul li a:hover{
+    text-decoration: solid;
+    color: var(--color-6);
+    background-color:var(--color-3);
+    border-radius: 3px;
+}
+
+.logo-social{
+    display: flex;
+    width: 100px;
+    gap: var(--gap);
+    align-self: center;
+    justify-content: center;
+}
+.logo-social img{
+    width: 30px;
+    height: auto;
+    
+}
+
+/* Hero Section */
+
+.hero{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 60px;
+    padding-bottom: var(--padding-bottom);
+    gap: var(--gap);
+    width: var(--width-container);
+    margin: auto;
+}
+.hero div{
+    width: 700px;
+}
+
+.img-hero img{
+    width: 700px;
+}
+
+.cta-hero{
+    display: flex;
+    flex-direction: column;
+    font-family: "Saira", sans-serif;
+    color: var(--color-3);
+    
+}
+
+h1{
+    font-size: 3.7em;
+}
+
+.cta-hero p {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 20px;
 }
