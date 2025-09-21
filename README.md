@@ -4,6 +4,8 @@ O objetivo é, além de apresentar o projeto que iremos desenvolver em si, expli
 
 
 
+
+
 ## Parametros Project S1
 
 Salve turma! Fiz um panorama geral do nosso projeto, organizando os temas que serão trabalhados por cada integrante e definindo também a paleta de cores que guiará o estilo visual. Além disso, adicionei a indicação de criação de um arquivo .css dentro da pasta styles, para mantermos o design padronizado e bem estruturado.
@@ -44,10 +46,8 @@ Para manter a identidade visual unificada, definimos a seguinte paleta de cores.
 Para facilitar o uso da paleta, irei adicionar um arquivo .css dentro da pasta styles do projeto contendo as variáveis de cada cor. Assim, todos poderão utilizá-las livremente nas páginas, evitando inconsistências visuais.
 
 
-
 ### Links úteis
 
 1. [Curso em Video](https://www.cursoemvideo.com/) <- pra aprender HTML e CSS
 2. [W3C](https://www.w3schools.com/) <- Documentação oficial para desenvolvimento Web.
-3. [Figma](https://www.figma.com/) ou [Canva ](https://www.canva.com/pt_br/)<- para trabalhar com imagens
-4. [Pexels](https://www.pexels.com/pt-br/) <- Pra baixar imagens gratuitas
+
