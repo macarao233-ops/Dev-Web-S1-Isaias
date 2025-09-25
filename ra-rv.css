@@ -1,78 +1,86 @@
 @charset "UTF-8";
 
 /* Aqui estou inportando as fontes */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* Aqui estou definindo as variaveis que são padrões "Padrões" para mantermos uuma uniformidade dentre as quatro paginas */
-:root{
+:root {
+  /* Paleta de cores */
 
-    /* Paleta de cores */
+  --color-1: #2e38f2; /* Azul Vibrante */
+  --color-2: #3037bf; /* Azul Médio */
+  --color-3: #32408c; /* Azul Profundo */
+  --color-4: #b4b9d9; /* Cinza Azulado */
+  --color-5: #333640; /* Cinza Escuro */
+  --color-6: #dadada; /* Platnum "Color adc "*/
 
-    --color-1: #2E38F2;         /* Azul Vibrante */
-    --color-2: #3037BF;         /* Azul Médio */
-    --color-3: #32408C;         /* Azul Profundo */
-    --color-4: #B4B9D9;         /* Cinza Azulado */
-    --color-5: #333640;         /* Cinza Escuro */
-    --color-6: #dadada;         /* Platnum "Color adc "*/
+  /* Tipografia */
+  --font-sans-1: "Saira", sans-serif; /* h1, h2, h3 ...*/
+  --font-sans-2: "Roboto", sans-serif; /* paragrafos...*/
 
-    /* Tipografia */
-    --font-sans-1: 'Saira', sans-serif;       /* h1, h2, h3 ...*/
-    --font-sans-2: 'Roboto', sans-serif;      /* paragrafos...*/
-    
+  /* Espacaçamentos */
 
-
-    /* Espacaçamentos */
-
-    --radius-sm: 6px;
-    --radius-md: 12px;
-    --gap: 1rem;
-    --card-shadow: 0 6px 18px rgba(17, 24, 39, 0.06);
-    --width-container: 1400px;
-    --padding-top: 100px;
-    --padding-bottom: 100px;
-
-
-
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --gap: 1rem;
+  --card-shadow: 0 6px 18px rgba(17, 24, 39, 0.06);
+  --width-container: 1400px;
+  --padding-top: 100px;
+  --padding-bottom: 100px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.container{
-    display: flex;
-    align-items: center;
-    font-family: 10px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-img{
-    height: 300px;
+body {
+  background-color: var(--color-6);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: var(--color-1);
+  width: 94%;
+  margin: auto;
 }
 
-p{
-    font-size: 20px;
-    color: var(--color-5);
+header {
+  text-align: center;
 }
 
-.rv{
-    display: flex;
-    font-family: 10px;
-    align-items: center;    
+.typewriter {
+  font-size: 40px;
+  font-weight: bold;
+  white-space: nowrap;
+  border-right: 2px solid #32408c;
+  width: fit-content;
+  overflow: hidden;
+  animation: blink 0.8s infinite step-end;
+  margin: 0 auto;
 }
 
-.ra{
-    display: flex;
-    font-family: 10px;
-    align-items: center;
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  color: var(--color-3);
+  font-size: 20px;
+}
+
+.rv {
+  color: var(--color-3);
+  font-size: 20px;
+}
+
+img {
+  height: 300px;
+}
+
+p {
+  font-size: 20px;
+  color: black;
 }
