@@ -43,8 +43,23 @@ body {
   margin: auto;
 }
 
-header {
-  text-align: center;
+.initial {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.title {
+  position: absolute;
+  top: 8%;
+  left: 32%;
+  background-color: rgb(201, 201, 201);
+  color: white;
+  padding: 12px;
+}
+
+.description {
+  margin-bottom: 10%;
 }
 
 .typewriter {
@@ -68,12 +83,12 @@ header {
   display: flex;
   align-items: center;
   color: var(--color-3);
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .rv {
   color: var(--color-3);
-  font-size: 20px;
+  font-size: 15px;
 }
 
 img {
@@ -81,6 +96,6 @@ img {
 }
 
 p {
-  font-size: 20px;
-  color: black;
+  font-size: 16px;
+  color: #333333;
 }
